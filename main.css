@@ -1,0 +1,53 @@
+#row1 {
+	display: flex;
+}
+
+#row1_box1 {
+	background-color: grey;
+	display: flex;
+}
+
+#row1_box2 {
+	background-color: cyan;
+	display: flex;
+}
+
+#row2 {
+	display: flex;
+}
+
+#row2_box1 {
+	background-color: purple;
+}
+
+#row2_box2 {
+	background-color: blue;
+}
+
+#row2_box3 {
+	background-color: green;
+}
+
+#row3 {
+	display: flex;
+}
+
+#row3_box1 {
+	background-color: yellow;
+}
+
+#row3_box2 {
+	background-color: orange;
+}
+
+#row4 {
+	display: flex;
+}
+
+#row4_box1 {
+	background-color: magenta;
+}
+
+#row4_box2 {
+	background-color: coral;
+}
