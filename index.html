@@ -3,26 +3,17 @@
 <head>
 	<title>Monica's Portfolio</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<!-- <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
 	<link rel="stylesheet" type="text/css" href="main.css">
-	<!-- <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
 </head>
 <body>
 	<div class="center">
-		<h1>Welcome to Monica's Portfolio</h1><br><br>
-		<img src="images/csharp.png">
-		<img src="images/dotnet.png">
-		<img src="images/css.png">
-		<img src="images/html.png">
-		<img src="images/excel.png">
-		<img src="images/sql.png">
+		<br><h1>Welcome to Monica's Portfolio</h1><br>
 	</div>
 	
-	<br><br><br>
+	<br>
 
 	<div class="row" id="row">
-		<div class="col-md-8" id="box">	
+		<div class="col-md-7" id="box" style="left: 30px;">	
 			<img id="headshot" src="images/headshot.png">
 			<ul id="intro">
 				<li><b>.NET Bootcamp</b> (Eleven Fifty Academy)</li>
@@ -33,33 +24,45 @@
 				<li><b>B.S. Early & Middle Childhood Education</b> (Butler University)</li>
 			</ul>
 		</div>
-		<div class="col-md-4" id="box">
+		<div class="col-md-1"></div>
+		<div class="col-md-4" id="box" style="right: 30px;">
 			<a href="resume1150_mmarek.doc" class="link">
-				<h2>Resume</h2>
+				<h2 class="center">Resume</h2>
 			</a>
 			<p>A summary of my work experience and education</p>
+			<br>
+			<div class="center">
+				<img class="icon" src="images/csharp.png">
+				<img class="icon" src="images/dotnet.png">
+				<img class="icon" src="images/css.png">
+				<img class="icon" src="images/html.png">
+				<img class="icon" src="images/excel.png">
+				<img src="images/sql.png">
+			</div>
 		</div>
 	</div>
 
 	<br><br><br>
 	
 	<div id="row">
-		<div class="col-md-4" id="box">
-			<a href="https://mjmarek.github.io/Store-App" class="link">
-				<h2>Storefront Application</h2>
-			</a>
-			<p>Static webpage created for my Monigami origami art store using CSS and HTML
-			</p>
-		</div>
-		<div class="col-md-4" id="box">
+		<div class="col-md-3" id="box" style="left: 10px;">
 			<a href="https://codepen.io/Mjmarek/pen/aVvEmW"	class="link">
-				<h2>CSS Creature</h2>
+				<h2 class="center">CSS Creature</h2>
 			</a>
 			<p>Pumpkin image designed using CSS and HTML in CodePen</p>
 		</div>
+		<div class="col-md-1"></div>
 		<div class="col-md-4" id="box">
+			<a href="https://mjmarek.github.io/Store-App" class="link">
+				<h2 class="center">Storefront Application</h2>
+			</a>
+			<p>Static webpage created for my Monigami origami art store using CSS and HTML
+			</p>
+		</div>		
+		<div class="col-md-1"></div>
+		<div class="col-md-3" id="box" style="right: 10px;">
 			<a href="#" class="link">
-				<h2>C# Console App</h2>
+				<h2 class="center">C# Console App</h2>
 			</a>
 			<p>Simple game that will run in the terminal
 			</p>
@@ -69,25 +72,29 @@
 	<br><br><br>
 	
 	<div class="row" id="row">
-		<div class="col-md-6" id="box">
+		<div class="col-md-1"></div>
+		<div class="col-md-4" id="box">
 			<a href="https://github.com/Mjmarek/C-Sharp-Library" class="link">
-				<h2>C# Library</h2>
+				<h2 class="center">C# Library</h2>
 			</a>
 			<p>A collection of resources and exercises compiled	while learning the basics of the C# language
 			</p>
 		</div>
-		<div class="col-md-6" id="box">
+		<div class="col-md-2"></div>
+		<div class="col-md-4" id="box">
 			<a href="#" class="link">
-				<h2>Restaurant Rater</h2>
+				<h2 class="center">Restaurant Rater</h2>
 			</a>
 			<p>MVC ASP.Net app
 			</p>
-		</div>		
+		</div>
+		<div class="col-md-1"></div>	
 	</div>
 
 	<br><br><br>
 
 	<div class="row" id="row">
+		<div class="col-md-1"></div>
 		<div class="col-md-3" id="box">
 			<h2>Contact Information</h2>
 			<h4>Email: monicamarek24@gmail.com</h4>
@@ -97,8 +104,8 @@
 			<a href="https://www.linkedin.com/in/monica-marek-6863b51b">
 				<img src="images/linkedin.png"></a>
 		</div>
-
-		<div class="col-md-9" id="box">
+		<div class="col-md-1"></div>
+		<div class="col-md-6" id="box">
 			<form action="https://formspree.io/monicamarek24@gmail.com"
 				method="POST">
 				<div class="email_form">
@@ -108,17 +115,26 @@
 						<input class="form-control" type="email" name="_replyto">
 					<label>Message</label>
 						<input class="form-control" type="text" name="message" placeholder="Type your message here.">
+						<br>
 						<input type="submit" value="Send" class="special">
 				</div>
 			<form>			
-		</div>				
+		</div>
+		<div class="col-md-1"></div>
 	</div>
+
+	<br><br><br>
+
+	<footer>
+		<ul>
+			<li>Website by MJM</li>
+			<li>&copy;2017</li>
+		</ul>
+	</footer>
 
 </body>
 </html>
 
-<!-- Icon images from https://www.iconfinder.com
- -->
-
-<!-- Insert footer -->
-<!-- Adjust font for h2 & p -->
+<!-- Icon images from www.iconfinder.com
+	Background image from www.pexels.com
+	Cubic font from www.dafont.com -->
