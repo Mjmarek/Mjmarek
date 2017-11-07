@@ -4,32 +4,30 @@ p {
 	color: black;
 }
 
-#intro {
-	font-size: 1.0em;
-	line-height: 1.4em;
-	color: black;
-}
-
 #row1 {
 	display: flex;
 }
 
 #row1_box1 {
 	background-color: skyblue;
+	border: 5px solid #003399;margin-left: 10px;
 }
 
 #row1_box2 {
-    position: relative;
-    z-index:1;
-    overflow:hidden;
+    background-color: grey;
+    border: 5px solid #003399;
 }
-#row1_box2:before {
-    z-index:-1;
-    position:absolute;
-    left:0;
-    top:0;
-    content: url('images/pexel1.jpeg');
-    opacity:0.4;
+
+#headshot {
+	float: left;
+	border: 5px solid #003399;
+	margin-right: 35px;
+}
+
+#intro {
+	font-size: 1.25em;
+	line-height: 1.5em;
+	color: black;
 }
 
 #row2 {
@@ -37,15 +35,17 @@ p {
 }
 
 #row2_box1 {
-	border: 5px solid purple;
-}	
+  border: 5px solid #003399;
+  margin-left: 10px;
+}
 
 #row2_box2 {
-	border: 5px solid blue;
+	border: 5px solid #003399;
 }
 	
 #row2_box3 {
-	border: 5px solid green;
+	border: 5px solid #003399;
+	margin-right: 10px;
 }
 
 #row3 {
@@ -53,11 +53,13 @@ p {
 }
 
 #row3_box1 {
-	background-color: yellow;
+	border: 5px solid #003399;
+	margin-left: 10px;
 }
 
 #row3_box2 {
-	background-color: orange;
+	border: 5px solid #003399;
+	margin-right: 10px;
 }
 
 #row4 {
@@ -65,9 +67,11 @@ p {
 }
 
 #row4_box1 {
-	background-color: magenta;
+	border: 5px solid #003399;
+	margin-left: 10px;
 }
 
 #row4_box2 {
-	background-color: coral;
+	border: 5px solid #003399;
+	margin-right: 10px;
 }
