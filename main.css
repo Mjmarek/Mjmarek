@@ -1,77 +1,55 @@
+html {
+	background: url('images/pexel.jpeg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+body {
+	background-color: transparent;
+}
+
+@font-face {
+	font-family: 'cubicregular';
+  src: url('images/cubic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1 {
+	font-family: 'cubicregular';
+	color: white;
+}
+
 p {
-	font-size: 0.5em;
+	font-size: 1.0em;
 	line-height: 1.4em;
 	color: black;
 }
 
-#row1 {
+.center {
+    text-align: center;
+}
+
+#row {
 	display: flex;
 }
 
-#row1_box1 {
+#box {
 	background-color: skyblue;
-	border: 5px solid #003399;margin-left: 10px;
-}
-
-#row1_box2 {
-    background-color: grey;
-    border: 5px solid #003399;
+	border: 5px solid #003399;
 }
 
 #headshot {
 	float: left;
-	border: 5px solid #003399;
+	margin-top: 15px;
 	margin-right: 35px;
+	border: 5px solid #003399;
 }
 
 #intro {
-	font-size: 1.25em;
+	font-size: 1.5em;
 	line-height: 1.5em;
 	color: black;
-}
-
-#row2 {
-	display: flex;
-}
-
-#row2_box1 {
-  border: 5px solid #003399;
-  margin-left: 10px;
-}
-
-#row2_box2 {
-	border: 5px solid #003399;
-}
-	
-#row2_box3 {
-	border: 5px solid #003399;
-	margin-right: 10px;
-}
-
-#row3 {
-	display: flex;
-}
-
-#row3_box1 {
-	border: 5px solid #003399;
-	margin-left: 10px;
-}
-
-#row3_box2 {
-	border: 5px solid #003399;
-	margin-right: 10px;
-}
-
-#row4 {
-	display: flex;
-}
-
-#row4_box1 {
-	border: 5px solid #003399;
-	margin-left: 10px;
-}
-
-#row4_box2 {
-	border: 5px solid #003399;
-	margin-right: 10px;
 }
