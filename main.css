@@ -1,15 +1,35 @@
+p {
+	font-size: 0.5em;
+	line-height: 1.4em;
+	color: black;
+}
+
+#intro {
+	font-size: 1.0em;
+	line-height: 1.4em;
+	color: black;
+}
+
 #row1 {
 	display: flex;
 }
 
 #row1_box1 {
-	background-color: grey;
-	display: flex;
+	background-color: skyblue;
 }
 
 #row1_box2 {
-	background-color: cyan;
-	display: flex;
+    position: relative;
+    z-index:1;
+    overflow:hidden;
+}
+#row1_box2:before {
+    z-index:-1;
+    position:absolute;
+    left:0;
+    top:0;
+    content: url('images/pexel1.jpeg');
+    opacity:0.4;
 }
 
 #row2 {
@@ -17,15 +37,15 @@
 }
 
 #row2_box1 {
-	background-color: purple;
-}
+	border: 5px solid purple;
+}	
 
 #row2_box2 {
-	background-color: blue;
+	border: 5px solid blue;
 }
-
+	
 #row2_box3 {
-	background-color: green;
+	border: 5px solid green;
 }
 
 #row3 {
