@@ -64,6 +64,11 @@ p {
 	padding-right: 5px;
 }
 
+.email_form {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
 footer {
 	font-size: 1.2em;
 	color: white;
