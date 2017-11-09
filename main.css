@@ -1,13 +1,9 @@
-html {
+body {
 	background: url('images/pexel.jpeg') no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-}
-
-body {
-	background-color: transparent;
 }
 
 @font-face {
@@ -64,9 +60,8 @@ p {
 	padding-right: 5px;
 }
 
-.email_form {
-	padding-top: 10px;
-	padding-bottom: 10px;
+#message {
+	height: 50em;
 }
 
 footer {

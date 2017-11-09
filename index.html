@@ -45,14 +45,15 @@
 	<br><br><br>
 	
 	<div id="row">
-		<div class="col-md-3" id="box" style="left: 10px;">
+		<div class="col-md-1"></div>
+		<div class="col-md-3" id="box">
 			<a href="https://codepen.io/Mjmarek/pen/aVvEmW"	class="link">
 				<h2 class="center">CSS Creature</h2>
 			</a>
 			<p>Pumpkin image designed using CSS and HTML in CodePen</p>
 		</div>
 		<div class="col-md-1"></div>
-		<div class="col-md-4" id="box">
+		<div class="col-md-3" id="box">
 			<a href="https://mjmarek.github.io/Store-App" class="link">
 				<h2 class="center">Storefront Application</h2>
 			</a>
@@ -60,13 +61,14 @@
 			</p>
 		</div>		
 		<div class="col-md-1"></div>
-		<div class="col-md-3" id="box" style="right: 10px;">
-			<a href="https://repl.it/NveF/latest" class="link">
-				<h2 class="center">Console App</h2>
+		<div class="col-md-3" id="box">
+			<a href="https://github.com/Mjmarek/C-Sharp-Library" class="link">
+				<h2 class="center">C# Library</h2>
 			</a>
-			<p>Users can name their hero and choose their own specialization in this text-based game, which will run in the terminal
+			<p>A collection of exercises compiled	while learning the basics of the C# language
 			</p>
 		</div>
+		<div class="col-md-1"></div>
 	</div>
 
 	<br><br><br>
@@ -74,18 +76,18 @@
 	<div class="row" id="row">
 		<div class="col-md-1"></div>
 		<div class="col-md-4" id="box">
-			<a href="https://github.com/Mjmarek/C-Sharp-Library" class="link">
-				<h2 class="center">C# Library</h2>
+			<a href="https://repl.it/NzDs/latest" class="link">
+				<h2 class="center">Console App</h2>
 			</a>
-			<p>A collection of resources and exercises compiled	while learning the basics of the C# language
+			<p>Users can name their hero and choose their own specialization in this text-based game, which runs in the terminal
 			</p>
-		</div>
+		</div>		
 		<div class="col-md-2"></div>
 		<div class="col-md-4" id="box">
 			<a href="https://github.com/Mjmarek/Restaurant-Rater" class="link">
 				<h2 class="center">Restaurant Rater</h2>
 			</a>
-			<p>A MVC web application built using the ASP.Net framework where users can log in to create and save a list of their favorite restaurants
+			<p>A MVC web application built using the ASP.Net framework where users can log in to create a list of their favorite restaurants
 			</p>
 		</div>
 		<div class="col-md-1"></div>	
@@ -107,19 +109,25 @@
 		</div>
 		<div class="col-md-2"></div>
 		<div class="col-md-5" id="box">
-			<form action="https://formspree.io/monicamarek24@gmail.com"
-				method="POST">
-				<div class="email_form">
-					<label>Name</label>
-						<input class="form-control" type="text" name="name">
-					<label>Email Address</label>
-						<input class="form-control" type="email" name="_replyto">
-					<label>Message</label>
-						<input class="form-control" type="text" name="message" placeholder="Type your message here.">
+			<div class="row">
+				<form action="https://formspree.io/monicamarek24@gmail.com"
+					method="POST">
+					<div class="col-md-6">
+						<label>Name</label>
+							<input class="form-control" type="text" name="name" >
+						<label>Email Address</label>
+							<input class="form-control" type="email" name="_replyto">
+						<label>Phone</label>
+							<input class="form-control" type="phone" name="phone">
+					</div>					
+					<div class="col-md-6"><label>Message</label>
+						<input id="message" class="form-control" type="text" name="message"
+							placeholder="Type your message here.">
 						<br>
 						<input type="submit" value="Send" class="special">
-				</div>
-			<form>			
+					</div>									
+				</form>
+			</div>				
 		</div>
 		<div class="col-md-1"></div>
 	</div>
