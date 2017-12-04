@@ -30,6 +30,14 @@ p {
 	text-align: center;
 }
 
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	color: white;
+}
+
 .center {
     text-align: center;
 }
