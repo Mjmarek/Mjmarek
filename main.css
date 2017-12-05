@@ -1,8 +1,5 @@
 body {
 	background: url('images/pexel-min.jpeg') no-repeat center center fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
 	background-size: cover;
 }
 
@@ -53,7 +50,6 @@ a:hover {
 
 #headshot {
 	float: left;
-	margin-top: 15px;
 	margin-right: 35px;
 	border: 5px solid black;
 }
@@ -65,7 +61,7 @@ a:hover {
 }
 
 .icon {
-	padding-right: 5px;
+	padding-right: 10px;
 }
 
 #message {
@@ -84,5 +80,3 @@ footer ul li {
 	padding: 0px 0.7em 0px 0px;
 	margin: 0px;
 }
-
-/*Original blue used for border: #003399*/
