@@ -68,6 +68,10 @@ a:hover {
 	padding-right: 5px;
 }
 
+#social {
+	padding-bottom: 15px;
+}
+
 #message {
 	height: 6.5em;
 }
